@@ -38,7 +38,7 @@ struct MealListView: View {
                         )
                     }
                 }
-                .padding()
+                .padding(.horizontal, 15)
             }
             .navigationDestination(for: MealBase.self) { meal in
                 MealDetailView(meal: meal)

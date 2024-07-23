@@ -15,6 +15,7 @@
 		7F5D32352C4CA9FE0064B9DA /* MealsVerticalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D32342C4CA9FE0064B9DA /* MealsVerticalListView.swift */; };
 		7F5D32362C4E20110064B9DA /* MealDetailModel_UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5C2BD2C48579300C0B8C4 /* MealDetailModel_UnitTests.swift */; };
 		7F5D323B2C4E20AD0064B9DA /* MealDetailResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F5D323A2C4E20AD0064B9DA /* MealDetailResponse.json */; };
+		7F5D323E2C4F0F8C0064B9DA /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F5D323D2C4F0F8C0064B9DA /* OpenSans-Regular.ttf */; };
 		7F79743B2C49A3A3000CFE8C /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79743A2C49A3A3000CFE8C /* MockData.swift */; };
 		7F79743F2C49C87D000CFE8C /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79743E2C49C87D000CFE8C /* DetailHeaderView.swift */; };
 		7F7974412C49CC14000CFE8C /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7974402C49CC14000CFE8C /* InstructionView.swift */; };
@@ -63,6 +64,8 @@
 		7F5D32322C4CA04C0064B9DA /* SearchDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataManager.swift; sourceTree = "<group>"; };
 		7F5D32342C4CA9FE0064B9DA /* MealsVerticalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsVerticalListView.swift; sourceTree = "<group>"; };
 		7F5D323A2C4E20AD0064B9DA /* MealDetailResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MealDetailResponse.json; sourceTree = "<group>"; };
+		7F5D323D2C4F0F8C0064B9DA /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		7F5D323F2C4F0FAA0064B9DA /* Fetch-CodingChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fetch-CodingChallenge-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7F79743A2C49A3A3000CFE8C /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		7F79743E2C49C87D000CFE8C /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		7F7974402C49CC14000CFE8C /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
@@ -218,11 +221,13 @@
 		7FC5C2A02C48579100C0B8C4 /* Fetch_CodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				7F5D323F2C4F0FAA0064B9DA /* Fetch-CodingChallenge-Info.plist */,
 				7FC5C2CC2C48579A00C0B8C4 /* Models */,
 				7F7974392C49A35D000CFE8C /* MockData */,
 				7FC5C2E32C48A26C00C0B8C4 /* DataManager */,
 				7FC5C2CD2C48579F00C0B8C4 /* Modules */,
 				7FC5C2A52C48579300C0B8C4 /* Assets.xcassets */,
+				7F5D323D2C4F0F8C0064B9DA /* OpenSans-Regular.ttf */,
 				7FC5C2A72C48579300C0B8C4 /* Fetch_CodingChallenge.entitlements */,
 				7FC5C2A82C48579300C0B8C4 /* Preview Content */,
 			);
@@ -388,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC5C2AA2C48579300C0B8C4 /* Preview Assets.xcassets in Resources */,
+				7F5D323E2C4F0F8C0064B9DA /* OpenSans-Regular.ttf in Resources */,
 				7FC5C2A62C48579300C0B8C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,6 +606,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fetch-CodingChallenge-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -638,6 +645,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fetch-CodingChallenge-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

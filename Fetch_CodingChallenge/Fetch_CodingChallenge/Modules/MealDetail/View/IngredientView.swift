@@ -17,17 +17,17 @@ struct IngredientView: View {
             .foregroundColor(.gray)
         ScrollView(.vertical, showsIndicators: false) {
             ForEach(0..<meal.ingredients.count, id: \.self) { index in
-                if let ingredient = meal.ingredients[index],
-                   let measure = meal.measures[index] {
+                if let ingredient = meal.ingredients[index], !ingredient.isEmpty,
+                   let measure = meal.measures[index], !measure.isEmpty {
                     VStack {
                         HStack {
                             Text(ingredient)
-                                .font(.system(size: 18))
+                                .font(.custom("OpenSans-Regular", size: 18))
                                 .foregroundStyle(Color.black.opacity(0.5))
                                 .padding(.vertical, 5)
                             Spacer()
                             Text(measure)
-                                .font(.system(size: 18))
+                                .font(.custom("OpenSans-Regular", size: 16))
                                 .foregroundStyle(Color.black)
                                 .fontWeight(.medium)
                         }
@@ -35,7 +35,7 @@ struct IngredientView: View {
                             .frame(height: 2)
                             .foregroundColor(.gray)
                     }
-                    .padding(.horizontal, 20)
+                    .padding(.horizontal, 30)
                 }
             }
         }

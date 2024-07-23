@@ -14,7 +14,7 @@ struct SearchMealView: View {
     
     var body: some View {
         VStack {
-            HStack(spacing: 5) {
+            HStack(spacing: 10) {
                 SearchMealBar(searchText: $searchViewModel.mealSearchText, isSearchBarClicked: $isSearchBarClicked)
                 Button {
                     isSearchBarClicked = false

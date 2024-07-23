@@ -21,8 +21,9 @@ struct MealDetailView: View {
                 
                 DetailHeaderView(meal: meal)
                 Text(meal.name)
-                    .font(.system(size: 24))
-                    .frame(width: 350, height: 30, alignment: .topLeading)
+                    .font(.custom("OpenSans-Regular", size: 24))
+                    .frame(width: 350, alignment: .topLeading)
+                    .multilineTextAlignment(.leading)
                 
                 HStack {
                     Button(action: {
@@ -31,6 +32,7 @@ struct MealDetailView: View {
                         VStack {
                             Text("Ingredients")
                                 .foregroundStyle(index == 0 ? Color.black : Color.gray)
+                                .font(.custom("OpenSans-Regular", size: 16))
                         }
                     })
                     Spacer()
@@ -39,6 +41,7 @@ struct MealDetailView: View {
                     }, label: {
                         Text("Instructions")
                             .foregroundStyle(index == 1 ? Color.black : Color.gray)
+                            .font(.custom("OpenSans-Regular", size: 16))
                     })
                 }
                 .padding(.horizontal, 60)

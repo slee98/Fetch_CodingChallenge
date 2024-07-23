@@ -14,7 +14,6 @@ struct DetailHeaderView: View {
     
     var body: some View {
         ZStack {
-            
             AsyncImage(url: meal.thumbnailURL, content: { image in
                 image
                     .resizable()

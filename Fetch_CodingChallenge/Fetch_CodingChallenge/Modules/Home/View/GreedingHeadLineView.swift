@@ -14,7 +14,7 @@ struct GreedingHeadLineView: View {
             Text(greetingMessage)
                 .font(.system(size: 20))
                 .foregroundStyle(.gray.opacity(0.7))
-            Text("What are you in the mood to make today?")
+            Text("Craving something special? Let's find a recipe!")
                 .font(.system(size: 14))
                 .foregroundStyle(.black.opacity(0.7))
         }

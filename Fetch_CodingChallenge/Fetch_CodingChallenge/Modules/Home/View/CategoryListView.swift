@@ -29,13 +29,14 @@ struct CategoryListView: View {
                             Text(category.name)
                                 .foregroundStyle(.black)
                                 .font(.system(size: 14))
-                                .fontWeight(categoryViewModel.selectedCategory?.id == category.id ? .bold : .regular)
+                                .fontWeight(categoryViewModel.selectedCategory?.id == category.id ? .medium : .regular)
                         }
                     })
                 }
             }
-            .padding()
         }
+        .padding(.horizontal, 20)
+        .padding(.vertical, 10)
         .onAppear {
             categoryViewModel.fetchCategory()
         }
