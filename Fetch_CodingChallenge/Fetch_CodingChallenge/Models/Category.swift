@@ -21,14 +21,6 @@ extension Category {
         case thumbnailURL = "strCategoryThumb"
         case description = "strCategoryDescription"
     }
-    
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        id = try container.decode(String.self, forKey: .id)
-        name = try container.decode(String.self, forKey: .name)
-        thumbnailURL = try container.decode(URL.self, forKey: .thumbnailURL)
-        description = try container.decode(String.self, forKey: .description)
-    }
 }
 
 struct CategoryAPIResponse: Codable {
