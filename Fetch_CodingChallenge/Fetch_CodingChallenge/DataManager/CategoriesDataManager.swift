@@ -7,7 +7,6 @@
 
 import Foundation
 
-@MainActor
 final class CategoriesDataManger: DataManager {
     
     func fetchCategories() async throws -> [Category]  {

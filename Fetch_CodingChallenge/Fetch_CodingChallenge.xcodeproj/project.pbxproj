@@ -222,9 +222,9 @@
 			isa = PBXGroup;
 			children = (
 				7F5D323F2C4F0FAA0064B9DA /* Fetch-CodingChallenge-Info.plist */,
+				7FC5C2E32C48A26C00C0B8C4 /* DataManager */,
 				7FC5C2CC2C48579A00C0B8C4 /* Models */,
 				7F7974392C49A35D000CFE8C /* MockData */,
-				7FC5C2E32C48A26C00C0B8C4 /* DataManager */,
 				7FC5C2CD2C48579F00C0B8C4 /* Modules */,
 				7FC5C2A52C48579300C0B8C4 /* Assets.xcassets */,
 				7F5D323D2C4F0F8C0064B9DA /* OpenSans-Regular.ttf */,

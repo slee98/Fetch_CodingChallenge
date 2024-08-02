@@ -7,7 +7,6 @@
 
 import Foundation
 
-@MainActor
 final class SearchDataManager: DataManager {
     
     func searchMeal(mealSearchText: String) async throws -> [MealDetail] {

@@ -7,7 +7,6 @@
 
 import Foundation
 
-@MainActor
 final class MealsDataManager: DataManager {
     
     func fetchMealsByCategory(categoryName: String) async throws -> [MealBase] {
